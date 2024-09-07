@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Arabic Font';
+  src: url('/path/to/your/arabic-font.woff2') format('woff2');
+}
+
+.font-arabic {
+  font-family: 'Arabic Font', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}

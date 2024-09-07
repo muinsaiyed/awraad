@@ -1,0 +1,68 @@
+Parse the verses in this text with the following rules and put it into a json
+
+Use the arabic from the image
+Use the translation from the image
+Provide a word for word translation based on the arabic
+Put it all into the below json format
+If you have quotations in the middle please use single quotes like
+please ensure all the arabic contains tashkeel
+
+Please note that there may be multiple verses in the image, if so, please break them out like so:
+
+Do not include "verse" or anything. just separate them like in the example json
+
+{
+    verse1
+},
+{
+    verse2
+},
+{
+    verse3
+}
+
+The below json is just an example, you should use the text from the image. In addition, when parsing the arabic please remove the commas
+"In the Name of God, Ever Loving and Caring,Who is always the Closest One to you Say: 'I seek refuge in the One Who takes care of all of humankind -Who is Sovereign in His power over all humankind -And Supreme in His Presence and Essence, over all of humankind -from the evil of the whisperer of evil,That whisperer, be he of jinn or humankind,who whispers evil suggestions into the hearts of humankind.' (recite 3 times)",
+
+Please display in an artifact as json
+
+JSON
+{
+      "breakdown": [
+      {"arabic": "الْحَمْدُ", "english": "Praise"},
+      {"arabic": "لِلَّهِ", "english": "to Allah"},
+      {"arabic": "رَبِّ", "english": "Lord"},
+      {"arabic": "الْعَالَمِينَ", "english": "of the worlds"},
+      {"arabic": "حَمْداً", "english": "praise"},
+      {"arabic": "يُوَافِي", "english": "that is adequate to"},
+      {"arabic": "نِعَمَهُ", "english": "His favors"},
+      {"arabic": "وَيُكَافِئُ", "english": "and equal to"},
+      {"arabic": "مَزِيدَهُ", "english": "His increase"}
+      ],
+      "fullArabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ حَمْداً يُوَافِي نِعَمَهُ وَيُكَافِئُ مَزِيدَهُ (ثلاثا)",
+      "englishFromImage": "Praise belongs to Allah, Lord of the Worlds—praise that is adequate to His favors and equal to His increase.",
+      "transliteration": "Al-ḥamdu lillāhi Rabbi l-ʿālamīn, ḥamdan yuwāfī niʿamahu wa yukāfi'u mazīdah. (3x)"
+    },
+    {
+      "breakdown": [
+      {"arabic": "آمَنتُ", "english": "I believe"},
+      {"arabic": "بِاللهِ", "english": "in Allah"},
+      {"arabic": "الْعَظِيمِ", "english": "the Almighty"},
+      {"arabic": "وَكَفَرْتُ", "english": "and I denounce"},
+      {"arabic": "بِالْجِبْتِ", "english": "all idols"},
+      {"arabic": "وَالطَّاغُوتِ", "english": "and false gods"},
+      {"arabic": "وَاسْتَمْسَكْتُ", "english": "and I grasp"},
+      {"arabic": "بِالْعُرْوَةِ", "english": "the handhold"},
+      {"arabic": "الْوُثْقَى", "english": "the firmest"},
+      {"arabic": "لَا", "english": "no"},
+      {"arabic": "انْفِصَامَ", "english": "break"},
+      {"arabic": "لَهَا", "english": "for it"},
+      {"arabic": "وَاللهُ", "english": "and Allah"},
+      {"arabic": "سَمِيعٌ", "english": "All-Hearing"},
+      {"arabic": "عَلِيمٌ", "english": "All-Knowing"}
+      ],
+      "fullArabic": "آمَنتُ بِاللهِ الْعَظِيمِ وَكَفَرْتُ بِالْجِبْتِ وَالطَّاغُوتِ وَاسْتَمْسَكْتُ بِالْعُرْوَةِ الْوُثْقَى لَا انْفِصَامَ لَهَا وَاللهُ سَمِيعٌ عَلِيمٌ (ثلاثا)",
+      "englishFromImage": "I believe in Allah the Almighty, and I denounce all idols and false gods, and I grasp the firmest handhold that never breaks, and Allah is All-Hearing, All-Knowing.",
+      "transliteration": "Āmantu billāhi l-ʿAẓīm, wa kafartu bil-jibti wa al-ṭāghūt, wastamsaktu bil-ʿurwati l-wuthqā, lanfiṣāma lahā wa Allāhu Samīʿun ʿAlīm. (3x)"
+    }
+    
