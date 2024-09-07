@@ -33,38 +33,9 @@ Awraad Reader is a React application designed to facilitate the reading of daily
 
 5. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-## Deployment
-
-This app is designed to be deployed on Vercel. Follow these steps:
-
-1. Install Vercel CLI:
-   ```
-   npm i -g vercel
-   ```
-
-2. Deploy the app:
-   ```
-   vercel
-   ```
 
 For more detailed instructions, refer to [Vercel's documentation for deploying React applications](https://vercel.com/docs/frameworks/react).
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
-
-Project Link: [https://github.com/yourusername/awraad-reader](https://github.com/yourusername/awraad-reader)
+muin - [@qamarunshadow](https://x.com/qamarunshadow)
